@@ -1,0 +1,7 @@
+__pycache__
+.vscode
+*.out
+
+/config.py
+/result.txt
+/proxies.txt
