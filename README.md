@@ -48,14 +48,14 @@ You can change the following parameters:
 
 ### Install dependencies
 
-- Arch Linux: `pacman -S python-lxml python-beautifulsoup4`
-- openSUSE: `zypper install python3-lxml python3-beautifulsoup4`
+- Arch Linux: `pacman -S python-requests python-lxml python-beautifulsoup4`
+- openSUSE: `zypper install python3-requests python3-lxml python3-beautifulsoup4`
 - Other systems: `pip install -r requirements.txt`
 
 ### Run the scraper
 
 ```sh
-python main.py
+python3 main.py
 ```
 
 ## Usage

@@ -7,7 +7,6 @@ class ProxiesManager:
     def __init__(self, proxyset: ProxySet):
         class ProxyModifyRequestHandler(BaseHTTPRequestHandler):
             def do_PUT(self):
-                global s
                 try:
                     with open('proxies.txt') as f:
                         proxyset.renew_proxies({line.rstrip('\n') for line in f})
