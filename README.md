@@ -32,7 +32,21 @@
 
 Save a list of proxies to `proxies.txt`.
 
-You should specify one proxy per line. Each proxy is in the format defined by the Request library.
+You should specify one proxy per line. Each proxy is in the format defined by the Request library. For example:
+
+```
+http://ip1:port1/
+http://ip2:port2/
+...
+```
+
+Or:
+
+```
+http://user1:password1@ip1:port1/
+http://user2:password2@ip2:port2/
+...
+```
 
 ### Configure the scraper
 
