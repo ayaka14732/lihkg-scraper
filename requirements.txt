@@ -1,3 +1,5 @@
-requests
-lxml
-beautifulsoup4
+selenium
+pyvirtualdisplay
+pillow
+EasyProcess
+tqdm

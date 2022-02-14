@@ -1,7 +1,2 @@
-__pycache__
-.vscode
-*.out
-
-/config.py
-/result.txt
-/proxies.txt
+lihkg*.csv
+proxy_auth_plugin_*.zip
